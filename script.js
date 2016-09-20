@@ -15,7 +15,9 @@ $(document).ready(function() {
     }
     
     function updateOutput() {
-        $("#outputPanel").contents().find("html").html($("#htmlPanel").val());
+        $("#outputPanel").contents().find("html").html("<html><head><style type='text/css'>" + $("#cssPanel").val() +  "</style></head><body>" + $("#htmlPanel").val() + "</body></html>");
+        
+        document.getElementById("outputPanel").contentWindow.eval($("#javascriptPanel").val());  
     }
     
     setPanelHeight();

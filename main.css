@@ -25,6 +25,7 @@ body {
     border: 1px solid gray;
     border-right: none;
     font-weight: 600;
+    cursor: pointer;
 }
 
 #logo {
@@ -72,6 +73,7 @@ html {
 
 .panel {
     float: left;
+    border-left: none;
 }
 
 
@@ -81,7 +83,7 @@ iframe {
 }
 
 #outputPanel {
-    padding-left: 5px;
+    padding: 10px;
 }
 
 .hidden {
