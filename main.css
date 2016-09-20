@@ -8,6 +8,8 @@
 
 body {
     font-family: Helvetica, sans-serif;
+    margin: 0;
+    height: 100%;
 }
 
 #buttonContainer {
@@ -51,4 +53,18 @@ body {
 .active {
     background-color: steelblue;
     color: white;
+}
+
+textarea {
+    width: 50%;
+    height: 100%;
+    resize: none;
+}
+
+html {
+    height: 100%;
+}
+
+#bodyContainer {
+    height: 100%;
 }
