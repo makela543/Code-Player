@@ -56,8 +56,6 @@ body {
 }
 
 textarea {
-    width: 50%;
-    height: 100%;
     resize: none;
 }
 
@@ -67,4 +65,12 @@ html {
 
 #bodyContainer {
     height: 100%;
+}
+
+.panel {
+    float: left;
+}
+
+#outputPanel {
+    width: 49%;
 }
